@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+
   height: 100vh;
   position: relative;
 }
@@ -25,3 +25,9 @@
 .button-wrapper {
   position: absolute;
 }
+
+@media screen and (max-width: 768px) {
+  .landing-page {
+    flex-wrap: wrap;
+  }
+} ;
