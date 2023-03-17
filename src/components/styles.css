@@ -1,0 +1,27 @@
+.landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  position: relative;
+}
+
+.center-button {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  border-radius: 5%;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.center-link {
+  position: absolute;
+}
+
+.button-wrapper {
+  position: absolute;
+}
